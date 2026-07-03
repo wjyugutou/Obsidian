@@ -1,0 +1,7 @@
+{
+  "promptDelete": true,
+  "showLineNumber": true,
+  "trashOption": "local",
+  "deleteUnlinkedAttachments": "ask",
+  "strictLineBreaks": true
+}
