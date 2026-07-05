@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/vue/hooks/useDict.md",
+                "file": "前端/vue/styles/Theme Toggle.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "useDict"
+              "title": "Theme Toggle"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/vue/hooks/useDict.md",
+                "file": "前端/vue/styles/Theme Toggle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "useDict 的反向链接列表"
+              "title": "Theme Toggle 的反向链接列表"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/vue/hooks/useDict.md",
+                "file": "前端/vue/styles/Theme Toggle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "useDict 的出链列表"
+              "title": "Theme Toggle 的出链列表"
             }
           },
           {
@@ -222,11 +222,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e30f9d4ecf21233",
+  "active": "7b5ec515e18830e0",
   "lastOpenFiles": [
-    "前端/vue/ssr/问题整理/SSR跨请求数据污染与Nuxt状态隔离.md",
-    "前端/vue/hooks/useDict.md",
     "前端/react/styles/Theme Toggle.md",
+    "前端/vue/hooks/useDict.md",
+    "前端/vue/ssr/问题整理/SSR跨请求数据污染与Nuxt状态隔离.md",
     "前端/vue/hooks",
     "前端/vue/styles/Theme Toggle.md",
     "前端/vue/styles/tailwind.css.md",

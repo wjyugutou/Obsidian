@@ -112,7 +112,7 @@ export const useThemeStore = create<ThemeState & ThemeAction>()(
                 clipPath: isDark ? clipPath.toReversed() : clipPath,
               },
               {
-                duration: 10000,
+                duration: 400,
                 easing: 'ease-in',
                 pseudoElement: isDark
                   ? '::view-transition-old(root)'
