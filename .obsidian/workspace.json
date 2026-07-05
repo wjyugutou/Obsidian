@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d2727914ae46416d",
+        "id": "807eca7d1ca37518",
         "type": "tabs",
         "children": [
           {
-            "id": "0e3e732e2deeb6e0",
+            "id": "4da7bac2b376f6ef",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -191,7 +187,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e3e732e2deeb6e0",
+  "active": "4da7bac2b376f6ef",
   "lastOpenFiles": [
     "后端/Redis/Token 设计.md",
     "未命名",
