@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "80b6f65b55fac9fe",
+        "id": "c30ffccde3cb6531",
         "type": "tabs",
         "children": [
           {
-            "id": "2641e5f2b5929dda",
+            "id": "ddbc791e4fa34c35",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "NestJS Module 三要素：providers-exports-imports"
             }
           }
         ]
@@ -191,8 +191,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2641e5f2b5929dda",
+  "active": "8e30f9d4ecf21233",
   "lastOpenFiles": [
+    "tsconfig.json.md",
+    "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
+    "后端/DB(Database)/MySQL/未命名.md",
+    "后端/Nestjs",
+    "后端/DB(Database)/PGSQL",
+    "后端/DB(Database)/PGSQL.md",
+    "后端/DB(Database)/MySQL.md",
+    "后端/DB(Database)/MySQL",
+    "后端/navicat",
     "后端/Redis/Token 设计.md",
     "前端/vue/styles/Theme Toggle.md",
     "前端/react/styles/Theme Toggle.md",
@@ -209,13 +218,9 @@
     "前端/react/tanstack/注意事项.md",
     "后端/DB(Database)",
     "后端/Redis",
-    "前端",
-    "后端",
     "前端/vue/EsLint.md",
     "前端/react/Eslint.md",
     "前端/UnoCSS/uno.config.ts.md",
-    "前端/UnoCSS",
-    "vue/数据库.base",
     "测试.md",
     "vue/ssr/经典陷阱问题/SSR 数据泄露.md",
     "欢迎.md"
