@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c30ffccde3cb6531",
+        "id": "8fa535c8fbd79dc5",
         "type": "tabs",
         "children": [
           {
-            "id": "ddbc791e4fa34c35",
+            "id": "04580d771a020df9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "NestJS Module 三要素：providers-exports-imports"
@@ -126,7 +126,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -154,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "NestJS Module 三要素：providers-exports-imports 的大纲"
             }
           },
           {
@@ -171,13 +172,25 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "1b96d2da583e68e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md"
+              },
+              "icon": "lucide-info",
+              "title": "NestJS Module 三要素：providers-exports-imports的笔记属性"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 410.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e30f9d4ecf21233",
+  "active": "04580d771a020df9",
   "lastOpenFiles": [
     "tsconfig.json.md",
     "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
