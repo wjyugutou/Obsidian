@@ -1,3 +1,7 @@
+---
+created: 2026-07-10
+updated: "created: 2026-07-10"
+---
 ```json
 {
 	// 报错：const enum 在隔离模式下不允许

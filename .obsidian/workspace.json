@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8fa535c8fbd79dc5",
+        "id": "1a45e61e3060c30f",
         "type": "tabs",
         "children": [
           {
-            "id": "04580d771a020df9",
+            "id": "6f0189e9db8fdc30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "后端/Nestjs/请求-响应 生命周期.md",
-                "mode": "source",
-                "source": false
+                "file": "Datebase.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "请求-响应 生命周期"
+              "icon": "lucide-table",
+              "title": "Datebase"
             }
           }
         ]
@@ -154,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/Nestjs/请求-响应 生命周期.md",
+                "file": "Datebase.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "请求-响应 生命周期 的大纲"
+              "title": "Datebase 的大纲"
             }
           },
           {
@@ -204,14 +203,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e30f9d4ecf21233",
+  "active": "6f0189e9db8fdc30",
   "lastOpenFiles": [
+    "未命名.md",
+    "Datebase.base",
+    "后端/Redis/Token 设计.md",
+    "后端/rxjs/常用方法.md",
+    "前端/react/tanstack/router/安装 使用.md",
     "后端/Nestjs/ModuleRef.md",
     "后端/Nestjs/请求-响应 生命周期.md",
     "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
-    "未命名.base",
     "后端/Nestjs/环境变量.md",
-    "后端/rxjs/未命名.md",
     "tsconfig.json.md",
     "后端/rxjs",
     "后端/Prisma/错误码.md",
@@ -223,7 +225,6 @@
     "后端/DB(Database)/MySQL.md",
     "后端/DB(Database)/MySQL",
     "后端/navicat",
-    "后端/Redis/Token 设计.md",
     "前端/vue/styles/Theme Toggle.md",
     "前端/react/styles/Theme Toggle.md",
     "前端/vue/hooks/useDict.md",
@@ -233,14 +234,11 @@
     "前端/vue/styles",
     "前端/react/hooks/useDict.md",
     "前端/react/styles",
-    "前端/react/tanstack/router/安装 使用.md",
     "前端/react/styles/tailwind.css.md",
     "前端/react/tanstack/注意事项.md",
     "前端/vue/EsLint.md",
     "前端/react/Eslint.md",
     "前端/UnoCSS/uno.config.ts.md",
-    "测试.md",
-    "vue/ssr/经典陷阱问题/SSR 数据泄露.md",
-    "欢迎.md"
+    "测试.md"
   ]
 }

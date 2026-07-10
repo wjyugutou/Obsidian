@@ -1,3 +1,7 @@
+---
+created: 2026-07-10
+updated: "created: 2026-07-10"
+---
 在SSR中应注意 [[SSR跨请求数据污染与Nuxt状态隔离]]
 ```ts
 import type { ToRefs } from 'vue'
