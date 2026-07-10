@@ -49,9 +49,10 @@ created: 2026-07-09
 ## ⚠️ 常见反模式：为什么不要重复声明？
 
 > [!DANGER] 错误做法
-> 在多个模块的 `providers` 中重复声明同一个类
+> 在多个模块的 `providers` 中重复声明同一个类, 会导致多实例
 
-```typescript
+```ts
 // ❌ CatsModule 和 DogsModule 各自声明 CatsService
 @Module({ providers: [CatsService] }) export class CatsModule {}
 @Module({ providers: [CatsService] }) export class DogsModule {}
+```
