@@ -10,6 +10,7 @@ views:
     order:
       - file.name
       - tags
+      - file.folder
       - updated
     sort:
       - property: created
@@ -18,3 +19,7 @@ views:
         direction: ASC
       - property: tags
         direction: ASC
+    columnSize:
+      file.name: 198
+      note.tags: 193
+      file.folder: 426
