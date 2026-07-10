@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
+                "file": "后端/Nestjs/请求-响应 生命周期.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NestJS Module 三要素：providers-exports-imports"
+              "title": "请求-响应 生命周期"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
+                "file": "后端/Nestjs/请求-响应 生命周期.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "NestJS Module 三要素：providers-exports-imports 的大纲"
+              "title": "请求-响应 生命周期 的大纲"
             }
           },
           {
@@ -204,10 +204,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04580d771a020df9",
+  "active": "8e30f9d4ecf21233",
   "lastOpenFiles": [
-    "tsconfig.json.md",
+    "后端/Nestjs/ModuleRef.md",
+    "后端/Nestjs/请求-响应 生命周期.md",
     "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
+    "未命名.base",
+    "后端/Nestjs/环境变量.md",
+    "后端/rxjs/未命名.md",
+    "tsconfig.json.md",
+    "后端/rxjs",
+    "后端/Prisma/错误码.md",
+    "后端/Prisma",
     "后端/DB(Database)/MySQL/未命名.md",
     "后端/Nestjs",
     "后端/DB(Database)/PGSQL",
@@ -226,11 +234,8 @@
     "前端/react/hooks/useDict.md",
     "前端/react/styles",
     "前端/react/tanstack/router/安装 使用.md",
-    "前端/react/hooks",
     "前端/react/styles/tailwind.css.md",
     "前端/react/tanstack/注意事项.md",
-    "后端/DB(Database)",
-    "后端/Redis",
     "前端/vue/EsLint.md",
     "前端/react/Eslint.md",
     "前端/UnoCSS/uno.config.ts.md",
