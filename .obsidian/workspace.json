@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": ".obsidian/app.json",
+                "bFile": ".obsidian/app.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "title": "Diff: app.json  (Working Tree)"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "0e3e732e2deeb6e0",
   "lastOpenFiles": [
+    "TS/reflect-metadata.md",
+    "TS/reflect-metadata/designparamtypes 返回 [Object, Object] 问题记录.md",
+    "TS/reflect-metadata",
+    "TS",
     "后端/Redis/Token 设计.md",
-    "未命名",
     "后端/DB",
     "后端/Redis",
     "前端",
@@ -208,7 +211,6 @@
     "vue/数据库.base",
     "前端/react/router/tanstack",
     "前端/react/router",
-    "前端/react",
     "测试.md",
     "前端/vue/ssr/问题整理/SSR跨请求数据污染与Nuxt状态隔离.md",
     "vue/ssr/经典陷阱问题/SSR 数据泄露.md",
