@@ -3,5 +3,6 @@
   "showLineNumber": true,
   "trashOption": "local",
   "deleteUnlinkedAttachments": "ask",
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "readableLineLength": false
 }

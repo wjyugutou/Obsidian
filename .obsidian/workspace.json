@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f26ec5bb9843d441",
+        "id": "f314b57a3a2c3508",
         "type": "tabs",
         "children": [
           {
-            "id": "0dbf6f76431fa057",
+            "id": "afea7b363fa59b6e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "后端/Nestjs/概述.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "概述"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 273.5
   },
   "right": {
     "id": "d87cda6bdc99479b",
@@ -187,15 +191,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dbf6f76431fa057",
+  "active": "afea7b363fa59b6e",
   "lastOpenFiles": [
+    "后端/Nestjs/请求-响应 生命周期.md",
+    "后端/Nestjs/环境变量.md",
+    "后端/Nestjs/概述.md",
+    "2026-07-12.md",
+    "TS/reflect-metadata.md",
     "conflict-files-obsidian-git.md",
     "后端/rxjs/常用方法.md",
     "后端/rxjs",
     "后端/Prisma/错误码.md",
     "后端/Prisma",
-    "后端/Nestjs/请求-响应 生命周期.md",
-    "后端/Nestjs/环境变量.md",
     "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
     "后端/Nestjs/ModuleRef.md",
     "后端/Nestjs",
@@ -216,14 +223,11 @@
     "前端/react/styles",
     "前端/react/hooks/useDict.md",
     "tsconfig.json.md",
-    "TS/reflect-metadata.md",
     "TS/reflect-metadata/designparamtypes 返回 [Object, Object] 问题记录.md",
     "后端/Redis/Token 设计.md",
     "前端/vue/EsLint.md",
     "前端/react/tailwind.css.md",
     "前端/react/Eslint.md",
-    "前端/UnoCSS/uno.config.ts.md",
-    "前端/react/router/tanstack/注意事项.md",
-    "测试.md"
+    "前端/UnoCSS/uno.config.ts.md"
   ]
 }
