@@ -1,0 +1,25 @@
+properties:
+  note.created:
+    displayName: created
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.ext != "base"
+    order:
+      - file.name
+      - tags
+      - file.folder
+      - updated
+    sort:
+      - property: created
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 198
+      note.tags: 193
+      file.folder: 426

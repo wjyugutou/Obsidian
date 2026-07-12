@@ -1,3 +1,7 @@
+---
+created: 2026-07-10
+updated: "created: 2026-07-10"
+---
 ```ts
 // 此文件实际不生效，具体生效文件在apps/*/unocss.config.ts
 // 此文件仅作为eslint校验使用
