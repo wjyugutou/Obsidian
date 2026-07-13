@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f314b57a3a2c3508",
+        "id": "9c4e22a760577386",
         "type": "tabs",
         "children": [
           {
-            "id": "afea7b363fa59b6e",
+            "id": "297ede8e0ea3942d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/Nestjs/概述.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "概述"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 324.51103591918945
   },
   "right": {
     "id": "d87cda6bdc99479b",
@@ -126,7 +122,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -154,12 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Datebase.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Datebase 的大纲"
             }
           },
           {
@@ -171,13 +168,25 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "1b96d2da583e68e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md"
+              },
+              "icon": "lucide-info",
+              "title": "NestJS Module 三要素：providers-exports-imports的笔记属性"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 410.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,42 +200,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afea7b363fa59b6e",
+  "active": "8e30f9d4ecf21233",
   "lastOpenFiles": [
-    "后端/Nestjs/请求-响应 生命周期.md",
-    "后端/Nestjs/环境变量.md",
     "后端/Nestjs/概述.md",
-    "2026-07-12.md",
     "TS/reflect-metadata.md",
-    "conflict-files-obsidian-git.md",
+    "TS",
+    "未命名.md",
+    "Datebase.base",
+    "后端/Redis/Token 设计.md",
     "后端/rxjs/常用方法.md",
+    "前端/react/tanstack/router/安装 使用.md",
+    "后端/Nestjs/ModuleRef.md",
+    "后端/Nestjs/请求-响应 生命周期.md",
+    "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
+    "后端/Nestjs/环境变量.md",
+    "tsconfig.json.md",
     "后端/rxjs",
     "后端/Prisma/错误码.md",
     "后端/Prisma",
-    "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
-    "后端/Nestjs/ModuleRef.md",
-    "后端/Nestjs",
     "后端/DB(Database)/MySQL/未命名.md",
+    "后端/Nestjs",
+    "后端/DB(Database)/PGSQL",
+    "后端/DB(Database)/PGSQL.md",
+    "后端/DB(Database)/MySQL.md",
     "后端/DB(Database)/MySQL",
-    "后端/DB(Database)",
+    "后端/navicat",
     "前端/vue/styles/Theme Toggle.md",
+    "前端/react/styles/Theme Toggle.md",
+    "前端/vue/hooks/useDict.md",
+    "前端/vue/ssr/问题整理/SSR跨请求数据污染与Nuxt状态隔离.md",
+    "前端/vue/hooks",
     "前端/vue/styles/tailwind.css.md",
     "前端/vue/styles",
-    "前端/vue/hooks/useDict.md",
-    "前端/vue/hooks",
-    "前端/react/tanstack/router/安装 使用.md",
-    "前端/react/tanstack/注意事项.md",
-    "前端/react/tanstack/router",
-    "前端/react/tanstack",
-    "前端/react/styles/Theme Toggle.md",
-    "前端/react/styles/tailwind.css.md",
-    "前端/react/styles",
     "前端/react/hooks/useDict.md",
-    "tsconfig.json.md",
-    "TS/reflect-metadata/designparamtypes 返回 [Object, Object] 问题记录.md",
-    "后端/Redis/Token 设计.md",
+    "前端/react/styles/tailwind.css.md",
+    "前端/react/tanstack/注意事项.md",
     "前端/vue/EsLint.md",
-    "前端/react/tailwind.css.md",
     "前端/react/Eslint.md",
     "前端/UnoCSS/uno.config.ts.md"
   ]
