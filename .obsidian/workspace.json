@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/Prisma/$transaction.md",
+                "file": "后端/Nestjs/环境变量.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "$transaction"
+              "title": "环境变量"
             }
           }
         ]
@@ -206,9 +206,13 @@
   },
   "active": "1c8f0e00f7e66ffa",
   "lastOpenFiles": [
-    "后端/Prisma/$transaction.md",
-    "TS/reflect-metadata.md",
     "后端/Nestjs/概述.md",
+    "后端/Nestjs/环境变量.md",
+    "后端/Nestjs/目录结构.md",
+    "后端/接口设计/分页.md",
+    "后端/Prisma/$transaction.md",
+    "后端/接口设计",
+    "TS/reflect-metadata.md",
     "Datebase.base",
     "TS",
     "后端/Redis/Token 设计.md",
@@ -217,7 +221,6 @@
     "后端/Nestjs/ModuleRef.md",
     "后端/Nestjs/请求-响应 生命周期.md",
     "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
-    "后端/Nestjs/环境变量.md",
     "tsconfig.json.md",
     "后端/rxjs",
     "后端/Prisma/错误码.md",
@@ -235,11 +238,9 @@
     "前端/vue/ssr/问题整理/SSR跨请求数据污染与Nuxt状态隔离.md",
     "前端/vue/hooks",
     "前端/vue/styles/tailwind.css.md",
-    "前端/vue/styles",
     "前端/react/hooks/useDict.md",
     "前端/react/styles/tailwind.css.md",
     "前端/react/tanstack/注意事项.md",
-    "前端/vue/EsLint.md",
-    "前端/react/Eslint.md"
+    "前端/vue/EsLint.md"
   ]
 }
