@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2e6a49e4c4f04e62",
+        "id": "d2fa10f8349268cb",
         "type": "tabs",
         "children": [
           {
-            "id": "1c8f0e00f7e66ffa",
+            "id": "4e33353aa7c34f04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue2/Build Error.md",
-                "mode": "source",
-                "source": true
+                "file": "后端/Nestjs/Errors/# MySQL 9.7 连接认证问题.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Build Error"
+              "title": "# MySQL 9.7 连接认证问题"
             }
           }
         ]
@@ -204,13 +204,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c8f0e00f7e66ffa",
+  "active": "4e33353aa7c34f04",
   "lastOpenFiles": [
+    "后端/Nestjs/概述.md",
     "后端/Nestjs/环境变量.md",
+    "后端/Nestjs/Errors/# MySQL 9.7 连接认证问题.md",
+    "后端/Nestjs/目录结构.md",
+    "后端/Nestjs/请求-响应 生命周期.md",
+    "后端/Nestjs/Errors/未命名 1.md",
+    "Windwos 开发体验.md",
+    "后端/Nestjs/Errors",
     "前端/Vue2/Build Error.md",
     "前端/Vue2",
-    "后端/Nestjs/概述.md",
-    "后端/Nestjs/目录结构.md",
     "后端/接口设计/分页.md",
     "后端/Prisma/$transaction.md",
     "后端/接口设计",
@@ -221,7 +226,6 @@
     "后端/rxjs/常用方法.md",
     "前端/react/tanstack/router/安装 使用.md",
     "后端/Nestjs/ModuleRef.md",
-    "后端/Nestjs/请求-响应 生命周期.md",
     "后端/Nestjs/NestJS Module 三要素：providers-exports-imports.md",
     "tsconfig.json.md",
     "后端/rxjs",
@@ -233,14 +237,10 @@
     "后端/DB(Database)/PGSQL.md",
     "后端/DB(Database)/MySQL.md",
     "后端/DB(Database)/MySQL",
-    "后端/navicat",
     "前端/vue/styles/Theme Toggle.md",
     "前端/react/styles/Theme Toggle.md",
     "前端/vue/hooks/useDict.md",
     "前端/vue/ssr/问题整理/SSR跨请求数据污染与Nuxt状态隔离.md",
-    "前端/vue/styles/tailwind.css.md",
-    "前端/react/hooks/useDict.md",
-    "前端/react/styles/tailwind.css.md",
-    "前端/react/tanstack/注意事项.md"
+    "前端/vue/styles/tailwind.css.md"
   ]
 }
