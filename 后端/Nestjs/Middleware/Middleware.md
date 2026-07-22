@@ -1,0 +1,1 @@
+middleware 也支持依赖注入

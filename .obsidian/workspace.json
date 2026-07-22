@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/zsh.md",
+                "file": "后端/Nestjs/Middleware/fastify.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "zsh"
+              "title": "fastify"
             }
           }
         ]
@@ -191,24 +191,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e39a0a22c99901e",
+  "active": "0a8a8a9ffaf15135",
   "lastOpenFiles": [
+    "后端/Nestjs/Middleware/Middleware.md",
+    "后端/Nestjs/Middleware/fastify.md",
+    "后端/Nestjs/Module/Module 分类.md",
+    "后端/Nestjs/Middleware",
+    "后端/Nestjs/Module/Module 三要素：providers-exports-imports.md",
+    "后端/Nestjs/Module",
+    "后端/Nestjs/Decorators/Injectable.md",
+    "后端/Nestjs/Decorators/Inject.md",
+    "后端/Nestjs/Decorators/Global.md",
+    "后端/Nestjs/Decorators/decorators.md",
+    "后端/Nestjs/Decorators/Controller.md",
     "Linux/zsh.md",
     "Linux",
-    "后端/Nestjs/Decorators/Module.md",
     "后端/Nestjs/Errors/# MySQL 9.7 连接认证问题.md",
     "后端/Nestjs/Errors",
     "Windwos 开发体验.md",
     "后端/Nestjs/请求-响应 生命周期.md",
     "后端/Nestjs/ModuleRef.md",
-    "后端/Nestjs/Decorators/decorators.md",
-    "后端/Nestjs/Decorators/Inject.md",
-    "后端/Nestjs/Decorators/Controller.md",
-    "后端/Nestjs/Decorators/Injectable.md",
     "后端/Nestjs/Decorators/Module 6.md",
     "后端/Nestjs/Decorators/Module 5.md",
     "后端/Nestjs/Decorators/Module 4.md",
-    "后端/Nestjs/Decorators/Global.md",
     "后端/Nestjs/Decorators/Module 8.md",
     "后端/Nestjs/Decorators/Module 7.md",
     "后端/Nestjs/Decorators",
@@ -221,12 +226,8 @@
     "前端/Vue2",
     "后端/Nestjs/环境变量.md",
     "2026-07-12.md",
-    "TS/reflect-metadata.md",
-    "conflict-files-obsidian-git.md",
     "后端/rxjs",
     "后端/Prisma",
-    "后端/Nestjs",
-    "后端/DB(Database)/MySQL",
-    "后端/DB(Database)"
+    "后端/Nestjs"
   ]
 }
