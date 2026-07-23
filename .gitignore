@@ -1,0 +1,2 @@
+# Obsidian 工作区 UI 状态（打开的标签页/光标位置等），每次操作都会变化，不适合跟踪
+.obsidian/workspace.json
