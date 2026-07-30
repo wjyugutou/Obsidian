@@ -23,6 +23,3 @@ mise
 ├── Bun
 ├── Python
 └── Go
-
-bun
-└── opencode-ai
