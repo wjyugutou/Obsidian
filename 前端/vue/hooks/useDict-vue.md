@@ -1,6 +1,10 @@
 ---
 created: 2026-07-10
-updated: "created: 2026-07-10"
+updated: 2026-07-30
+tags:
+  - vue
+  - hooks
+  - 字典
 ---
 在SSR中应注意 [[SSR跨请求数据污染与Nuxt状态隔离]]
 ```ts

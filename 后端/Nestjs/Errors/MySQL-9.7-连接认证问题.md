@@ -1,5 +1,11 @@
 ---
-updated: 2026-07-17
+created: 2026-07-18
+updated: 2026-07-30
+tags:
+  - nestjs
+  - mysql
+  - error
+  - 认证
 ---
 > 环境：NestJS 11 + Prisma 7 + `@prisma/adapter-mariadb@7.8.0` + MySQL 9.7（Windows）
 

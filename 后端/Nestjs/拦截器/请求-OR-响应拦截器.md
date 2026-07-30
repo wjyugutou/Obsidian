@@ -1,3 +1,10 @@
+---
+created: 2026-07-30
+updated: 2026-07-30
+tags:
+  - nestjs
+  - interceptor
+---
 NestJS **没有**"请求拦截器 / 响应拦截器"两种类。同一个 `intercept()` 方法同时覆盖两个阶段，区分只看代码写在 `next.handle()` 的哪一侧：
 
 ```ts

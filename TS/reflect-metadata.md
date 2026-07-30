@@ -1,3 +1,11 @@
+---
+created: 2026-07-12
+updated: 2026-07-30
+tags:
+  - typescript
+  - reflect-metadata
+  - decorators
+---
 ## `design:paramtypes` 返回 `[Function: Object, Function: Object]` 问题
 
 ### 现象

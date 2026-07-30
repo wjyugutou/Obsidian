@@ -1,6 +1,10 @@
 ---
 created: 2026-07-10
-updated: "created: 2026-07-10"
+updated: 2026-07-30
+tags:
+  - react
+  - hooks
+  - 字典
 ---
 ```ts
 import { useEffect, useSyncExternalStore } from 'react'

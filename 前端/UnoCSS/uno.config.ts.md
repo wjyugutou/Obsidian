@@ -1,6 +1,10 @@
 ---
 created: 2026-07-10
-updated: "created: 2026-07-10"
+updated: 2026-07-30
+tags:
+  - unocss
+  - css
+  - config
 ---
 ```ts
 // 此文件实际不生效，具体生效文件在apps/*/unocss.config.ts
