@@ -1,6 +1,10 @@
 ---
 created: 2026-07-10
-updated: "created: 2026-07-10"
+updated: 2026-07-30
+tags:
+  - nestjs
+  - module
+  - dynamic-module
 ---
 ### 1. 在非类上下文中获取依赖（最常见）
 

@@ -1,6 +1,11 @@
 ---
 created: 2026-07-10
-updated: "created: 2026-07-10"
+updated: 2026-07-30
+tags:
+  - vue
+  - ssr
+  - nuxt
+  - 状态隔离
 ---
 # SSR 跨请求数据污染与 Nuxt 状态隔离
 

@@ -1,0 +1,13 @@
+# 强制 LF 行尾，防止跨平台（Windows 编辑器 + WSL git）CRLF 污染
+# Obsidian 笔记库统一 LF
+* text=auto eol=lf
+
+# 二进制文件不做行尾转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary

@@ -1,3 +1,11 @@
+---
+created: 2026-07-15
+updated: 2026-07-30
+tags:
+  - vue2
+  - build
+  - error
+---
 ### The "from" argument must be of type string. Received undefined
 
 #### 解决

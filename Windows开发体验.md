@@ -1,3 +1,10 @@
+---
+created: 2026-07-18
+updated: 2026-07-30
+tags:
+  - windows
+  - 环境配置
+---
 
 管理 工具
 Scoop
@@ -16,6 +23,3 @@ mise
 ├── Bun
 ├── Python
 └── Go
-
-bun
-└── opencode-ai

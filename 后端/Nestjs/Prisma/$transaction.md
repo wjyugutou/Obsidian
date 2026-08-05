@@ -1,3 +1,11 @@
+---
+created: 2026-07-13
+updated: 2026-07-30
+tags:
+  - prisma
+  - transaction
+  - database
+---
 是 Prisma Client 提供的**数据库事务**方法，用于确保一组数据库操作要么**全部成功提交**，要么**全部回滚**，保证数据一致性。
 
 ### 回调函数用法
