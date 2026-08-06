@@ -21,5 +21,5 @@ views:
         direction: ASC
     columnSize:
       file.name: 198
-      note.tags: 193
+      note.tags: 467
       file.folder: 426
