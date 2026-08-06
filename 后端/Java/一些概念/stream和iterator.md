@@ -38,6 +38,7 @@ List<String> result = list.stream()       // 创建流
 ```
 
 **三大核心操作类型：**
+
 |操作类型|说明|示例|类比前端|
 |:--|:--|:--|:--|
 |创建|从集合/数组/生成器创建流|`stream()`, `of()`, `generate()`|`[...arr]`|
@@ -46,3 +47,33 @@ List<String> result = list.stream()       // 创建流
 
 ⚡ **惰性求值**：中间操作不会立即执行，只有遇到终端操作时才一次性流水线处理。这意味着可以优化执行计划（如短路、融合循环）。
 
+### 3. Stream ↔ Iterator 互转
+
+#### Iterator → Stream
+
+```java
+Iterator<String> it = list.iterator();
+// Java 8 没有直接 API，需借助 Spliterator
+Stream<String> stream = StreamSupport.stream(
+    Spliterators.spliteratorUnknownSize(it, Spliterator.ORDERED),
+    false  // parallel = false
+);
+```
+
+#### Stream → Iterator
+```java
+Iterator<String> it = stream.iterator();
+// 注意：这会触发流的终端操作，流被消费后不可再用
+```
+
+### 4. 如何选择？决策指南
+
+|场景|推荐|原因|
+|:--|:--|:--|
+|简单遍历 + 无副作用|Stream|声明式，可读性强|
+|遍历时需要删除/修改元素|Iterator|Stream 不支持安全修改源集合|
+|需要索引/下标|for-i / ListIterator|Stream 天然无索引概念|
+|大数据集 + 多核环境|parallelStream|自动并行分片|
+|复杂状态依赖的遍历|Iterator / for|Stream 应避免有状态 lambda|
+|仅需判断存在/计数|Stream|`anyMatch/count` 可短路优化|
+|性能极度敏感的热路径|传统 for|Stream 有对象创建开销|
