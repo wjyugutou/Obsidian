@@ -42,12 +42,12 @@
 
 ## 事务 / 异步 / 定时
 
-| 注解 | 说明 |
-|---|---|
-| `@Transactional` | 方法/类级事务, 默认仅对 RuntimeException 回滚 |
-| `@Async` + `@EnableAsync` | 异步执行, 类比 NestJS @nestjs/bull 或独立异步任务 |
-| `@Scheduled` + `@EnableScheduling` | 定时任务, 类比 NestJS @Cron() (需要 @nestjs/schedule) |
-| `@PostConstruct` / `@PreDestroy` | 初始化 / 销毁回调, 类比 NestJS OnModuleInit / OnModuleDestroy |
+| 注解                                 | 说明                                                   |
+| ---------------------------------- | ---------------------------------------------------- |
+| `@Transactional`                   | 方法/类级事务, 默认仅对 RuntimeException 回滚                    |
+| `@Async` + `@EnableAsync`          | 异步执行, 类比 NestJS @nestjs/bull 或独立异步任务                 |
+| `@Scheduled` + `@EnableScheduling` | 定时任务, 类比 NestJS @Cron() (需要 @nestjs/schedule)        |
+| `@PostConstruct` / `@PreDestroy`   | 初始化 / 销毁回调, 类比 NestJS OnModuleInit / OnModuleDestroy |
 
 ## 缓存
 
