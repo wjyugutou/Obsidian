@@ -2,14 +2,14 @@
 
 ## Bean 注册
 
-| 注解 | 说明 |
-|---|---|
-| `@Component` | 通用组件, 注册为 Spring Bean |
-| `@Service` | 业务层, 语义化的 @Component |
-| `@Repository` | 持久层, 语义化的 @Component |
-| `@Controller` / `@RestController` | 控制层, 语义化的 @Component |
-| `@Configuration` | 配置类, 内部 @Bean 方法产出的对象也会注册为 Bean |
-| `@Bean` | 方法级, 声明一个 Bean 交给容器管理(常用于第三方类) |
+| 注解                                | 说明                              |
+| --------------------------------- | ------------------------------- |
+| `@Component`                      | 通用组件, 注册为 Spring Bean           |
+| `@Service`                        | 业务层, 语义化的 @Component            |
+| `@Repository`                     | 持久层, 语义化的 @Component            |
+| `@Controller` / `@RestController` | 控制层, 语义化的 @Component            |
+| `@Configuration`                  | 配置类, 内部 @Bean 方法产出的对象也会注册为 Bean |
+| `@Bean`                           | 方法级, 声明一个 Bean 交给容器管理(常用于第三方类)  |
 
 ## 依赖注入
 
