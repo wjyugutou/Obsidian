@@ -13,13 +13,13 @@
 
 ## 依赖注入
 
-| 注解 | 说明 |
-|---|---|
-| `@Autowired` | 按类型注入, 类比 NestJS 构造函数注入 |
-| `@Qualifier("名称")` | 同类型多 Bean 时指定名称, 配合 @Autowired |
-| `@Resource` | 按名称注入 (javax/jakarta 标准) |
-| `@Value("${xx.yy}")` | 注入配置文件属性, 类比 NestJS 的 ConfigService |
-| `@ConfigurationProperties(prefix="xx")` | 批量绑定配置到 POJO |
+| 注解                                      | 说明                                  |
+| --------------------------------------- | ----------------------------------- |
+| `@Autowired`                            | 按类型注入, 类比 NestJS 构造函数注入             |
+| `@Qualifier("名称")`                      | 同类型多 Bean 时指定名称, 配合 @Autowired      |
+| `@Resource`                             | 按名称注入 (javax/jakarta 标准)            |
+| `@Value("${xx.yy}")`                    | 注入配置文件属性, 类比 NestJS 的 ConfigService |
+| `@ConfigurationProperties(prefix="xx")` | 批量绑定配置到 POJO                        |
 
 ## 配置与条件
 
