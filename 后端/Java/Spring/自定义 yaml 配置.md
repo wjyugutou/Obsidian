@@ -37,3 +37,4 @@ yml (app.executors.*)
   → ③ 业务代码 @Resource(name="cacheRebuildExecutor") 注入使用 (首次提交任务才真正起线程)
 一句话：ExecutorProps 是"翻译官"（yml → 数据），taskExecutors 是"工厂"（数据 → 线程池对象），线程本身要等业务真正提交任务才懒启动。
 
+ 
