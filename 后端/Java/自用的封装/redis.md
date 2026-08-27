@@ -1,4 +1,5 @@
-
+**只用 StringRedisTemplate 行不行**
+序列化json
 
 ```java
 @Component
