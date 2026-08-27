@@ -64,19 +64,19 @@
 
 ## Spring 注解 ↔ NestJS 装饰器对照表
 
-| Spring | NestJS | 说明 |
-|---|---|---|
-| `@Component` / `@Service` / `@Repository` | `@Injectable()` | 注册可注入依赖 |
-| `@Controller` / `@RestController` | `@Controller()` | 控制器 |
-| `@GetMapping` 等 | `@Get()` 等 | 路由方法 |
-| `@PathVariable` | `@Param('id')` | 路径参数 |
-| `@RequestParam` | `@Query('key')` | 查询参数 |
-| `@RequestBody` | `@Body()` | 请求体 |
-| `@RequestHeader` | `@Headers('key')` | 请求头 |
-| `@Autowired` / 构造器注入 | 构造器注入 | DI |
-| `@Transactional` | TypeORM 的 `@Transaction()` 或 DataSource.transaction() | 事务 |
-| `@Valid` + 校验注解 | DTO + class-validator | 参数校验 |
-| `@Scheduled` | `@Cron()` | 定时任务 |
-| `@Aspect` + `@Around` | `@UseInterceptors()` + `Interceptor` | 横切逻辑 |
-| `@RestControllerAdvice` | `@Catch()` + ExceptionFilter | 全局异常 |
-| `@ConfigurationProperties` | ConfigModule 的 validate/load | 配置绑定 |
+| Spring                                    | NestJS                                                | 说明      |
+| ----------------------------------------- | ----------------------------------------------------- | ------- |
+| `@Component` / `@Service` / `@Repository` | `@Injectable()`                                       | 注册可注入依赖 |
+| `@Controller` / `@RestController`         | `@Controller()`                                       | 控制器     |
+| `@GetMapping` 等                           | `@Get()` 等                                            | 路由方法    |
+| `@PathVariable`                           | `@Param('id')`                                        | 路径参数    |
+| `@RequestParam`                           | `@Query('key')`                                       | 查询参数    |
+| `@RequestBody`                            | `@Body()`                                             | 请求体     |
+| `@RequestHeader`                          | `@Headers('key')`                                     | 请求头     |
+| `@Autowired` / 构造器注入                      | 构造器注入                                                 | DI      |
+| `@Transactional`                          | TypeORM 的 `@Transaction()` 或 DataSource.transaction() | 事务      |
+| `@Valid` + 校验注解                           | DTO + class-validator                                 | 参数校验    |
+| `@Scheduled`                              | `@Cron()`                                             | 定时任务    |
+| `@Aspect` + `@Around`                     | `@UseInterceptors()` + `Interceptor`                  | 横切逻辑    |
+| `@RestControllerAdvice`                   | `@Catch()` + ExceptionFilter                          | 全局异常    |
+| `@ConfigurationProperties`                | ConfigModule 的 validate/load                          | 配置绑定    |
