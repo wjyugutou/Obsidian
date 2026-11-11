@@ -1,7 +1,8 @@
 ```ts
 import type { AxiosRequestConfig, AxiosResponse, InternalAxiosRequestConfig } from 'axios'
-import router from '@/router'
+import type { ApiResponse } from './tools/enum'
 import axios from 'axios'
+import router from '@/router'
 
 type Result<T = any, B = object> = {
   code: number
@@ -11,12 +12,14 @@ type Result<T = any, B = object> = {
 } & B
 
 interface CustomConfig {
-  /** 是否需要设置token */
-  isToken?: boolean
-  /** 是否需要显示错误提示 */
-  showMsg?: boolean
-  // loading?: boolean
-  // headers?: Record<string, any>
+  meta?: {
+    /** 是否需要设置token */
+    isToken?: boolean
+    /** 是否需要显示错误提示 */
+    showMsg?: boolean
+    // loading?: boolean
+    // headers?: Record<string, any>
+  }
 }
 
 type RequestConfig = AxiosRequestConfig & CustomConfig
@@ -27,9 +30,9 @@ interface InterceptorsResponse extends AxiosResponse {
   config: InterceptorsConfig
 }
 
-export const baseURL = import.meta.env.PUBLIC_BASE_API
+export const baseURL = import.meta.env.BASE_URL
 
-const request = axios.create({
+export const axiosInstance = axios.create({
   baseURL, // url = base url + request url
   timeout: 15000, // request timeout
   headers: {
@@ -37,16 +40,16 @@ const request = axios.create({
   },
 })
 
-request.interceptors.request.use(
+axiosInstance.interceptors.request.use(
   (config: InterceptorsConfig) => {
     // 是否需要设置 token
     const isToken = config.isToken !== false
 
     if (isToken) {
-      const token = useToken().access_token
+      const { token } = useToken()
 
-      if (token) {
-        config.headers.Authorization = `Bearer ${token}` // 让每个请求携带自定义token 请根据实际情况自行修改
+      if (token.value) {
+        config.headers.Authorization = `Bearer ${token.value}` // 让每个请求携带自定义token 请根据实际情况自行修改
       }
     }
 
@@ -59,11 +62,15 @@ request.interceptors.request.use(
   },
 )
 
-request.interceptors.response.use(
-  (response: InterceptorsResponse) => {
-    const showMsg = response.config.showMsg === undefined ? true : response.config.showMsg
+function showFailToast(message: string) {
+  alert(message)
+}
 
-    const res = response.data
+axiosInstance.interceptors.response.use(
+  (response: InterceptorsResponse) => {
+    const showMsg = response.config.meta?.showMsg !== false
+
+    const res = response.data as ApiResponse
 
     if (res instanceof Blob) {
       return response.data
@@ -89,22 +96,9 @@ request.interceptors.response.use(
   },
 )
 
-export function get<T = unknown, B = object>(url: string, config?: RequestConfig): Promise<Result<T, B>> {
-  return request.get(url, config)
+export default function request<T = unknown>(config: RequestConfig) {
+  return axiosInstance.request<unknown, T>(config)
 }
 
-export function post<T = unknown, B = object>(url: string, data?: any, config?: RequestConfig): Promise<Result<T, B>> {
-  return request.post(url, data, config)
-}
-
-export function put<T = unknown, B = object>(url: string, data?: any, config?: RequestConfig): Promise<Result<T, B>> {
-  return request.put(url, data, config)
-}
-
-export function del<T = unknown, B = object>(url: string, config?: RequestConfig): Promise<Result<T, B>> {
-  return request.delete(url, config)
-}
-
-export default request
 
 ```
