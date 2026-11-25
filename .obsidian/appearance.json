@@ -3,5 +3,6 @@
   "accentColor": "#952dcd",
   "enabledCssSnippets": [
     "page-width"
-  ]
+  ],
+  "showRibbon": true
 }
